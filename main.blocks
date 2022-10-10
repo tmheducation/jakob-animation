@@ -1,0 +1,79 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_selected_event" id="+MzVw+-tjJVttSLQps$o" x="1263" y="-566"><field name="NAME">Button.A</field><value name="eventType"><shadow type="control_button_event_click" id="_^Y_G$[-]bHlp#Dr^JKW"/></value><statement name="HANDLER"><block type="device_show_leds" id="CNkd~!oa`m=mswoBV2$."><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="device_show_number" id=",DC#5|%%DG$84D0,cx-1"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="number"><shadow type="math_number" id="D}ON]fE+PL]5q:!65et`"><field name="NUM">3</field></shadow></value><next><block type="device_show_number" id="Ohx]g8%QUI:F!2YDcr{y"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="number"><shadow type="math_number" id="aObJi|w99{;L`j_3@Ul^"><field name="NUM">2</field></shadow></value><next><block type="device_show_number" id="$*KX0[Hwx7=wM~-A$^5@"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="number"><shadow type="math_number" id=",EB!bLU3QaT$M)2`;YLP"><field name="NUM">1</field></shadow></value><next><block type="device_print_message" id="`Fe[0A1;StTR0N)?`Ggg"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="text"><shadow type="text" id="l*ZQ*]ug;U_D~5j]%GLs"><field name="TEXT">LOS</field></shadow></value><next><block type="device_show_leds" id="t,,l*$%5#(]vH;/:6:HP"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="device_show_leds" id="UKtzkaa~rbk+[{+?2Vh)"><field name="LEDS">`
+        . # . # . 
+        . # # # . 
+        . # # # . 
+        # . # . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="G0:!Ce!jLyoi~*%+CznG"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="61kl-bk[sJ(Pw)QW{N=6"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="]$3Dt!azjodZ|k^VB,03"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="#(PBY8U=B6#e(|N.ezIU"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="Je/.9*0/;[4+];{$eQ*g"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="j0g%ho3,Mp0VmV6$7oo%"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="TpB=^e}:xc2QKouhXF@H" x="205" y="0"><statement name="HANDLER"><block type="device_set_led_color" id="[Y=}+hGz2g#Kl#}kwwak"><value name="color"><shadow type="colorNumberPicker" id="Q%AA18r8F#-+h:L^MG#f"><field name="value">0x00ffff</field></shadow></value></block></statement></block><block type="device_pin_custom_event" id="Q=wcNH3$9UV2qV4Boxd!" x="483" y="147"><field name="name">TouchPin.P1</field><value name="eventType"><shadow type="control_button_event_down" id="zh,qqBcM,Xtw)1{]+7Ey"/></value><statement name="HANDLER"><block type="basic_show_icon" id="~w~=c$7W]@K#c8A2%I;F"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="i">IconNames.Ghost</field></block></statement></block><block type="device_gesture_event" id="Z.uqkjE}4=Vs@m=L0y[o" x="755" y="149"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id="#c)hX26^c:oo_`^Sl!Bd"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="text"><shadow type="text" id="uJv.}zl{lHQ7|OrF6cn_"><field name="TEXT">NICHT SCHUETTELN</field></shadow></value><next><block type="device_show_leds" id="e$,yxppftY-kNjIJ`/75"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement></block><block type="device_pin_custom_event" id="~DdJLhGSNb8*D=(c4v~U" x="278" y="175"><field name="name">TouchPin.P2</field><value name="eventType"><shadow type="control_button_event_down" id="CVu.H6$RweCN,d:5piw)"/></value><statement name="HANDLER"><block type="basic_show_icon" id="VS!{,EH4+Upa;[XR9s!R"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="i">IconNames.Duck</field></block></statement></block><block type="device_pin_custom_event" id="LH[*Ur,]Q%JY~*q~!3ut" x="29" y="216"><field name="name">TouchPin.P0</field><value name="eventType"><shadow type="control_button_event_down" id="+FZ=8JLpG%-,J=?:D4$z"/></value><statement name="HANDLER"><block type="device_print_message" id="~4QK,%uV1~V5aJ}]h+EF"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="text"><shadow type="text" id="p,}mq!3Q6@=C{6U^wi:5"><field name="TEXT">Hallo Jakob</field></shadow></value><next><block type="device_show_leds" id=",JxhHveyv}#^ABS7pvNL"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="JgfQ#:^6xfbI{bC[EPPu"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="Q,P$t8+LuaZem_F3!)d+"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="basic_show_icon" id="(.znZx@v3iA?K*yFUZyF"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="i">IconNames.Heart</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_pin_custom_event" id="RF?BPYUB?L)nfZ=U}E5)" x="269" y="297"><field name="name">TouchPin.P3</field><value name="eventType"><shadow type="control_button_event_down" id="/6OM=[iK4VQoeM`#%@7Q"/></value><statement name="HANDLER"><block type="basic_show_icon" id="~k|rZY;W1wlUdN?.B1K;"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="i">IconNames.Snake</field></block></statement></block><block type="device_button_selected_event" id="qfQySN1)/d.=hZ~g){`e" x="323" y="459"><field name="NAME">Button.B</field><value name="eventType"><shadow type="control_button_event_click" id="q(gt}srhp4Gcf-OI8@KW"/></value><statement name="HANDLER"><block type="playMelody" id="/gktH{b=xxt??p8a5(|w"><value name="melody"><shadow type="melody_editor" id="ydWI}A,kn8z`2PFX}p0U"><field name="melody">"B A B C5 B A B B "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="=@{vxZINq@H44$|B0.JQ"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="basic_show_icon" id="hD1W(c:6B|jPc]Ts048%"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="i">IconNames.EigthNote</field><next><block type="basic_show_icon" id="u6;YBqkD{Z%3E%kIr_jk"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="i">IconNames.QuarterNote</field></block></next></block></next></block></statement></block></xml>
